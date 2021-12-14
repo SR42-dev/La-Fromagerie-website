@@ -1,0 +1,13 @@
+.aboutpage{
+  max-width: 1450px;
+  margin: 1rem auto;
+}
+.homescreen__title {
+  font-size: 1.3rem;
+  color: grey;
+  margin-bottom: 1rem;
+  margin-left: 0px;
+  background-color: palegreen;
+  text-align: center;
+  font-family: cursive;
+}

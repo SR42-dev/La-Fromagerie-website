@@ -1,0 +1,39 @@
+.container,.container2{
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 8px 10px black;
+    padding: 16px;
+    margin: 2vw;
+  }
+
+ .container img {
+    float: left;
+    width:10vw;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  .container2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container2 img{
+    float: right;
+    width:10vw;
+    margin-right: 20px;
+    border-radius: 50%;
+  };
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+  @media (max-width: 500px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }

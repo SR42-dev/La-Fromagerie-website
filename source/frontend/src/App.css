@@ -1,0 +1,205 @@
+.app {
+  height: 80vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Login */
+
+#Login{
+    width: 100%;
+    height: 100vh;   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./LoginBg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    }
+
+.loginBox{
+    height: max-content;
+    width: max-content;
+    position: absolute;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+}
+
+.loginInputs div{
+    padding: 8px;
+}
+
+#loginMainHeading{
+    color: #57606f;
+    padding-bottom: 20px;
+    
+}
+
+#loginSubHeading{
+    color: #a4b0be;
+    padding-bottom: 20px;
+}
+
+.loginBox input{
+    border: 2px solid #a4b0be;
+    border-radius: 25px;
+    height: 30px;
+    width: 260px;
+    padding: 8px;
+    font-size: large;
+    color: #57606f;
+}
+
+.loginBox input:hover{
+    border: 1px solid #1e90ff;
+    transition: 0.3s;
+}
+
+.loginBox input:focus{
+    border: 3px solid #1e90ff;
+    outline: none;
+}
+
+#loginEye img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 90px;
+    top: 207px;
+    cursor: pointer;
+}
+
+#submit-login{
+    text-decoration: none;
+    color: white;
+    background-color: #1e90ff;
+    padding: 9px 30px 9px 30px;
+    font-size: 30px;
+    width: 100px;
+    border-radius: 23px;
+    width: max-content;
+}
+
+#submit-login:hover{
+    padding: 9px 40px 9px 40px;
+    transition: .3s;
+}
+
+
+#login-signup{
+    padding-top: 25px;
+    color: red;
+    font-size: 20px;
+}
+
+#create{
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+#loginInvalid{
+    padding-top: 20px;
+    color: red;
+    font-size: 20px;
+    display: none;
+}
+/* ------------------------------------------------------------------------ */
+
+/* Sign-Up */
+
+#signup{
+    width: 100%;
+    height: 100vh;  
+    color : #f1c40f; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./SignUpBg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    }
+
+.signUpItems{
+    padding: 20px;
+    height: max-content;
+    width:max-content;
+    align-items: center;
+    justify-content: center;
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 23px;
+    opacity: .8;
+}
+
+.items{
+    padding: 10px;
+}
+
+.items input{
+    border-radius: 23px;
+    height: 30px;
+    width: 260px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #f1c40f;
+    font-size: 20px;
+}
+
+#signupEyeImg img{
+    position: relative;
+    height: 30px;
+    width: 30px;  
+    right: -237px; 
+    top: -35px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+#signUpSecurity{
+    outline: none;
+    border: 1px solid #f1c40f;
+    border-radius: 23px;
+    height: 40px;
+    width: 275px;
+    padding: 5px;
+    font-size: 20px;
+    color: #57606f;
+}
+
+.items input:focus{
+    border: 3px solid #f1c40f;
+}
+
+#signUpCreate{
+    background-color: #f1c40f;
+    /* opacity: 1 !important; */
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#signUpCreate:hover{
+    padding: 10px 20px 10px 20px;
+}
+
+#signUpInvalid{
+    color: red;
+    display: none;
+}
